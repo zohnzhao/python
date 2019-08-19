@@ -3,7 +3,6 @@ import urllib.request
 # 简单的 get
 response = urllib.request.urlopen('http://www.baidu.com')
 print(response.read().decode('utf-8'))
-
 print('-' * 40)
 
 # 简单的传递参数
@@ -17,7 +16,6 @@ print('-' * 40)
 # 超时时间
 response = urllib.request.urlopen('http://www.baidu.com', timeout=1)
 print(response.read().decode('utf-8'))
-
 print('-' * 40)
 
 # 响应类型
